@@ -4,9 +4,9 @@
 
 _Esta lista puede ir cambiando con el tiempo y conforme al equipo_
 
-### Checklist que responde: ¿Cuándo está un feature / sprint / release listo para salir?
+### ¿Cuándo está un feature / sprint / release listo para salir?
 
-#### Feature
+##### Feature
 
 1. La funcionalidad cumple los criterios de aceptación definidos en la
    historia de usuario ([Pivotal Tracker](http://pivotaltracker.com/) || [Waffle.io](http://waffle.io) || [GitHub Issue](http://github.com)).
