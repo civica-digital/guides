@@ -5,13 +5,13 @@ Formas básicas de crear grids en css sin frameworks
 
 Float es la forma más básica de crear un grid de elementos que se acomoden en columnas, este es un ejemplo:  
 
-	.wrapper{
-  		overflow:hidden;
-  		.box{
-    		width:30%;
-    		float:left;
-  		}
-	}
+  .wrapper{
+      overflow:hidden;
+      .box{
+        width:30%;
+        float:left;
+      }
+  }
 
  
 
@@ -25,19 +25,19 @@ Float es la forma más básica de crear un grid de elementos que se acomoden en 
  
 
 Para que un contenedor reconozca a sus hijos flotantes, tiene que tener *overflow:hidden*.  
-	
-	.pagination{
-  		overflow:hidden;
   
-  		.prev{
-      		float:left;
-     		width:30%;
-   		}
-    	.next{
-      		float:right;
-      		width:30%;
-    	}
-	}
+  .pagination{
+      overflow:hidden;
+  
+      .prev{
+          float:left;
+        width:30%;
+      }
+      .next{
+          float:right;
+          width:30%;
+      }
+  }
 
 3- Cuando queremos que a partir de cierto punto los elementos que siguen a un elemento flotante comiencen a reconocerlo y dejen de ignorarlo, usamos clear:
 
@@ -47,13 +47,13 @@ Para que un contenedor reconozca a sus hijos flotantes, tiene que tener *overflo
 
 Esta es otra forma de crear elementos que se ubican en columnas:
 
-	.wrapper{
-  		text-align:center;
-  		.box{
-    		width:200px;
-    		display:inline-block;
-  		}
-	}
+  .wrapper{
+      text-align:center;
+      .box{
+        width:200px;
+        display:inline-block;
+      }
+  }
 
 La diferencia básica con el float, es que si tenemos un grid de 3 columnas y 4 elementos, con float el cuarto elemento va a alinearse a la izquierda, y con inline-block va a centrarse.  
  
@@ -64,12 +64,12 @@ Las tablas tienen dos ventajas que no podemos lograr con divs: centrar verticalm
 
 Para que el *display:table-cell* de una caja funcione, su contenedor padre tiene que tener *display:table*. 
 
-	.wrapper{
-  		display:table;
-  		.box{
-    		display:table-cell;
-    		width:30%;
-  		}
-	}
+  .wrapper{
+      display:table;
+      .box{
+        display:table-cell;
+        width:30%;
+      }
+  }
 
 
