@@ -5,6 +5,7 @@ Formas básicas de crear grids en css sin frameworks
 
 Float es la forma más básica de crear un grid de elementos que se acomoden en columnas, este es un ejemplo básico:  
 
+```
   .wrapper{
       overflow:hidden;
       .box{
@@ -12,6 +13,7 @@ Float es la forma más básica de crear un grid de elementos que se acomoden en 
         float:left;
       }
   }
+```
 
 Si nuestro box tiene **alto variable**, tenemos que combinar con *clear* para evitar que se rompa el grid.
 
@@ -29,8 +31,9 @@ Ejemplo: [jsfiddle.net/3wuo92za](https://jsfiddle.net/3wuo92za/  "https://jsfidd
 
  
 
-Para que un contenedor reconozca a sus hijos flotantes, tiene que tener *overflow:hidden*.  
+Para que un contenedor reconozca a sus hijos flotantes, tiene que tener *overflow:hidden*.
   
+```
   .pagination{
       overflow:hidden;
   
@@ -43,6 +46,7 @@ Para que un contenedor reconozca a sus hijos flotantes, tiene que tener *overflo
           width:30%;
       }
   }
+```
 
 Ejemplo: [jsfiddle.net/j0h7vncg](https://jsfiddle.net/j0h7vncg/ "https://jsfiddle.net/j0h7vncg/")  
  
@@ -50,6 +54,7 @@ Ejemplo: [jsfiddle.net/j0h7vncg](https://jsfiddle.net/j0h7vncg/ "https://jsfiddl
 
 Esta es otra forma de crear elementos que se ubican en columnas:
 
+```
   .wrapper{
       text-align:center;
       .box{
@@ -57,7 +62,7 @@ Esta es otra forma de crear elementos que se ubican en columnas:
         display:inline-block;
       }
   }
-
+```
 La diferencia básica con el float, es que si tenemos un grid de 3 columnas y 4 elementos, con float el cuarto elemento va a alinearse a la izquierda, y con inline-block va a centrarse.  
 
 Ejemplo: [jsfiddle.net/L2bc30b0](https://jsfiddle.net/L2bc30b0/ "https://jsfiddle.net/L2bc30b0/")  
@@ -69,6 +74,7 @@ Las tablas tienen dos ventajas que no podemos lograr con divs: centrar verticalm
 
 Para que el *display:table-cell* de una caja funcione, su contenedor padre tiene que tener *display:table*. 
 
+```
   .wrapper{
       display:table;
       .box{
@@ -76,5 +82,6 @@ Para que el *display:table-cell* de una caja funcione, su contenedor padre tiene
         width:30%;
       }
   }
+```
 
 Ejemplo: [jsfiddle.net/ozhonk24](https://jsfiddle.net/ozhonk24/ "https://jsfiddle.net/ozhonk24/") 
