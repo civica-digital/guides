@@ -61,6 +61,7 @@ Una vez que tenemos definidos los saltos de container, podemos ir revisando cada
 		}
 	}
 Es importante escribir la menor cantidad de media queries posible, para que sea más legible el código y más fácil hacer retoques. Por eso, no necesariamente hay que escribirlas en cada componente, sino a veces en los archivos de configuración, por ejemplo, en _tipography.scss, podemos definir:
+	
 	h1 {
 		font-size: 40px;
 		
