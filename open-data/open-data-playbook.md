@@ -24,32 +24,32 @@ Los datos abiertos tienen dos dimensiones en los indicadores de su calidad:
 ## Lo que hemos hecho antes:
 
 **Herramientas para la Apertura de datos:**
-Refinadora - Test compliance of Open Data Standards using scripts in any language from a single web interface - [Repo](https://github.com/civica-digital/la-refinadora)
-IRIS - Information Readiness Assessment - [Repo](https://github.com/civica-digital/iris)
+- Refinadora - Test compliance of Open Data Standards using scripts in any language from a single web interface - [Repo](https://github.com/civica-digital/la-refinadora)
+- IRIS - Information Readiness Assessment - [Repo](https://github.com/civica-digital/iris)
 
 **Repositorios de datos abiertos**
-Datamx.io - [link](datamx.io) - [Repo](https://github.com/CodeandoMexico/ckanext-datamx_theme)
-Laboratorio para la Ciudad de México - [link](http://datos.labcd.mx/dataset) -  [Repo](https://github.com/LabPLC/Laboratorio-de-datos/graphs/contributors)
+- Datamx.io - [link](datamx.io) - [Repo](https://github.com/CodeandoMexico/ckanext-datamx_theme)
+- Laboratorio para la Ciudad de México - [link](http://datos.labcd.mx/dataset) -  [Repo](https://github.com/LabPLC/Laboratorio-de-datos/graphs/contributors)
 
 **Plataformas que generan datos abiertos**
-URBEM - [link](http://urbem-puebla.herokuapp.com/)
-MiNegocio México - [link]() - [Repo](https://github.com/civica-digital/mi-negocio-mx)
+- URBEM - [link](http://urbem-puebla.herokuapp.com/)
+- MiNegocio México - [link]() - [Repo](https://github.com/civica-digital/mi-negocio-mx)
 
 **Procesos de Seguimiento a la apertura de datos**
-Laboratorio para la Ciudad en Ciudad de México - [Datos](http://datos.labcd.mx/dataset)
-Ciudatos - [Datos](http://datos.ciudatos.com/dataset)
-MiNegocio México - [Datos](https://minegociomexico.mx/)
-Respira - [Datos](respiraciudad.org)
+- Laboratorio para la Ciudad en Ciudad de México - [Datos](http://datos.labcd.mx/dataset)
+- Ciudatos - [Datos](http://datos.ciudatos.com/dataset)
+- MiNegocio México - [Datos](https://minegociomexico.mx/)
+- Respira - [Datos](respiraciudad.org)
 
 **Visualización de datos**
-Inversión en el gasto - [link](cambioclimatico.tm.org.mx) - [Repo](https://github.com/civica-digital/financiamiento-climatico)
-UNHabitat - [link](unhabitat-ciudades-equitativas.herokuapp.com)
-Ciudatos - [link](http://ciudatos.com/datos/indicadores/) - [Repo](https://github.com/civica-digital/como-vamos-colombia-webapp)
-Respira - [link](respiraciudad.org) - [Repo](https://github.com/civica-digital/calidad-del-aire-webapp)
+- Inversión en el gasto - [link](cambioclimatico.tm.org.mx) - [Repo](https://github.com/civica-digital/financiamiento-climatico)
+- UNHabitat - [link](unhabitat-ciudades-equitativas.herokuapp.com)
+- Ciudatos - [link](http://ciudatos.com/datos/indicadores/) - [Repo](https://github.com/civica-digital/como-vamos-colombia-webapp)
+- Respira - [link](respiraciudad.org) - [Repo](https://github.com/civica-digital/calidad-del-aire-webapp)
 
 **Análisis y Evaluación de Estrategias de Datos Abiertos**
-Open Data Barometer - [link](opendatabarometer.org)
-Articulo: Open Data Squads - [link](http://datos.gob.mx/)
+- Open Data Barometer - [link](opendatabarometer.org)
+- Articulo: Open Data Squads - [link](http://datos.gob.mx/)
 
 
 #### ¿Cómo instalamos open data en nuestras plataformas y proyectos?
