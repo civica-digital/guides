@@ -39,3 +39,8 @@ Por ejemplo:
 - **Selección de la necesidad a atacar**: En nuestro proceso, muy relacionado con el planteamiento del proyecto inicial.
 - **Planteamiento del escenario para su evaluación**: Aleatoriedad y determinación de caso base para encontrar el verdadero impacto directamente atribuible al programa.
 - **Recolección de datos para indicadores**
+
+### Fuentes
+
+[MIT OCW - Abdul Latif Jameel Poverty Action Lab Executive Training: Evaluating Social Programs 2011](http://ocw.mit.edu/resources/res-14-002-abdul-latif-jameel-poverty-action-lab-executive-training-evaluating-social-programs-2011-spring-2011/index.htm)
+[Lean Data Approaches to Measure Social Impact](https://novoed.com/lean-data-2016-1)
