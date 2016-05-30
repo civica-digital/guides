@@ -2,7 +2,7 @@
 
 > Poniendo el Civic en el Tech.
 
-_Esta lista puede ir cambiando con el tiempo y conforme al equipo_
+_Este es un documento vivo, está a tus órdenes para cualquier cambio que quieras hacer_
 
 ### ¿Por qué medimos impacto?
 
@@ -31,7 +31,7 @@ Por ejemplo:
 
 - **Necesidades**: Las mujeres en una comunidad tienen niveles más bajos de educación y sus necesidades no están representadas en el gobierno local.
 - **Acciones**: Otorgar asientos en el gobierno local a las mujeres.
-- **Reacciónes**: Cambio en los presupuestos, asistencia de mujeres en la junta de consejo de la ciudad.
+- **Reacciones**: Cambio en los presupuestos, asistencia de mujeres en la junta de consejo de la ciudad.
 - **Impacto** : Cambio en niveles de Alfabetismo, Indicadores de desarrollo para niñas y niños.
 
 ### Retos en la evaluación de impacto
