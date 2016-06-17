@@ -5,7 +5,7 @@
 _Esta lista puede ir cambiando con el tiempo y conforme al equipo_
 
 
-### ¿Cómo soportamos datos con diseño?
+### ¿Cómo soportamos diseño con datos?
 
 
 1. Datos para alimentar nuestras ideas y los procesos del diseño.
