@@ -29,7 +29,7 @@ Definimos el tamaño del contenedor que va a responder a los distintos rangos de
 
 	.container{
 		width: 1200px;
-		@include media(min-width 960px max-width 1199px){
+		@include media(min-width 960px max-width 1199px) {
 			width: 960px; padding-left:15px; padding-right:15px;
 		}
 		@include media(min-width 780px max-width 959px) {
