@@ -18,8 +18,9 @@ Siempre va a haber excepciones y todo dependerá de las necesidades del diseño,
 
 Esta meta etiqueta va en el header del layout, y define cómo se va a mostrar el sitio en distintos dispositivos.
 
-``` <meta name=viewport content="width=device-width, initialscale=
-1"> ```  
+``` 
+	<meta name=viewport content="width=device-width, initialscale=1">
+```  
 
 Con ese tag, le decimos al dispositivo que si mide 380px de ancho, se muestren 380px reales y no los 1200 de nuestro container achicados proporcionalmente.
 
@@ -27,6 +28,7 @@ Con ese tag, le decimos al dispositivo que si mide 380px de ancho, se muestren 3
 
 Definimos el tamaño del contenedor que va a responder a los distintos rangos de media:
 
+```
 	.container{
 		width: 1200px;
 		@include media(min-width 960px max-width 1199px) {
@@ -43,12 +45,13 @@ Definimos el tamaño del contenedor que va a responder a los distintos rangos de
 		}
 	}
 
+```
 ### 4- Ajustar cada componente
 
 Una vez que tenemos definidos los saltos de container, podemos ir revisando cada componente a sus distintas visualizaciones. Hay dos formas de hacerlo:
 
 1- **Incluir los media queries dentro del componente, o en los archivos de configuración (Opción recomendada)**: A medida que vamos escribiendo el código del componente, lo vamos revisando en las distintas versiones y hacemos los ajustes necesarios para que las visualizaciones sean correctas. Solo incluimos los media de los saltos en los que necesitamos hacer ajustes:
-	
+```	
 	.evento{
 		float: left;
 		width:30%;
@@ -60,7 +63,9 @@ Una vez que tenemos definidos los saltos de container, podemos ir revisando cada
 			width: 100%;
 		}
 	}
+```
 Es importante escribir la menor cantidad de media queries posible, para que sea más legible el código y más fácil hacer retoques. Por eso, no necesariamente hay que escribirlas en cada componente, sino a veces en los archivos de configuración, por ejemplo, en _tipography.scss, podemos definir:
+```
 	
 	h1 {
 		font-size: 40px;
@@ -73,8 +78,8 @@ Es importante escribir la menor cantidad de media queries posible, para que sea 
 			font-size: 20px;
 		}
 	}
-
-Las razones por las que recomiendo esta opción son:  
+```
+Las razones por las que recomiendo esta opción son:  
 
 
 a- Es más fácil encontrar las variaciones cuando estamos dentro
